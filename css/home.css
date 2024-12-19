@@ -1,0 +1,52 @@
+.carousel {
+    /* border-radius: 30px; arredonda as bordas do carrossel */
+    overflow: hidden; /* esconde o conteúdo que ultrapassa as bordas */
+    box-shadow: #333;
+    size-adjust: 50%;
+  }
+
+  .carousel-item img {
+  opacity: 0.8;
+}
+
+  h2{
+    padding: 0 280px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: #735751;
+  }
+
+
+.img1{
+    padding: 0 50px;
+    text-align: center;
+}
+
+img.banner{
+    width: 300px;
+    height: 400px;
+    border: solid rgb(167, 0, 0) 1px;
+    transition: 0.5s ease-in-out;
+
+}
+ 
+img.banner:hover {
+    width: 320px;
+    height: 420px;
+    transform: translate(5px, 10px);
+}
+
+
+.botao{
+  border-color: aliceblue;
+}
+
+
+#myImage {
+  opacity: 0;
+  transition: opacity 0.5s; /* adjust the transition duration */
+}
+
+#myImage.appear {
+  opacity: 1;
+}

@@ -1,0 +1,63 @@
+
+.banner-SOBRE {
+    height: 350px;
+    background-image: url(../imagens/banners/bannertodos.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-top: 180px;
+}
+
+
+.texto-banner-SOBRE {
+    width: 1200px;
+    margin: auto;
+    color: #BF4342;
+    padding-top: 20px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.50);
+}
+    
+
+.texto-banner-SOBRE h1 {
+    font-family: Raleway;
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+/* FOTOS */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    margin-top: 20px; /* Espaço entre o título e as imagens */
+    margin-bottom: 60px; /* Espaço entre as imagens e o rodapé */
+}
+ 
+.imagem-3x4 {
+    width: 400px; /* Largura das imagens (ajustar conforme necessário) */
+    height: 500px; /* Altura das imagens (ajustar conforme necessário) */
+    object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorção */
+    border-radius: 8px; /* Bordas arredondadas (opcional) */
+    transition: transform 0.3s ease; /* Suaviza o efeito de transformação */
+}
+ 
+/* Efeito de aumento (zoom) nas imagens */
+.imagem-3x4:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% ao passar o mouse */
+}
+
+.btn-primary{
+    margin-right: 15px;
+}
+
+.btn-primary:hover {
+    background-color: #660000 !important;
+    border-color: #660000 !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+  

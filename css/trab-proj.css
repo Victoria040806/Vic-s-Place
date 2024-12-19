@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    margin-top: 20px; /* Espaço entre o título e as imagens */
+    margin-bottom: 60px; /* Espaço entre as imagens e o rodapé */
+}
+ 
+.imagem-3x4 {
+    width: 800px; /* Largura das imagens (ajustar conforme necessário) */
+    height: 500px; /* Altura das imagens (ajustar conforme necessário) */
+    object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorção */
+    border-radius: 8px; /* Bordas arredondadas (opcional) */
+    transition: transform 0.3s ease; /* Suaviza o efeito de transformação */
+}
+ 
+/* Efeito de aumento (zoom) nas imagens */
+.imagem-3x4:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% ao passar o mouse */
+}
+
+.carousel {
+    border-radius: 30px; 
+    overflow: hidden; /* esconde o conteúdo que ultrapassa as bordas */
+    box-shadow: #333;
+    size-adjust: 50%;
+  }
+
+  .carousel-item img {
+  opacity: 0.8;
+}
+
+.carousel-video{
+    border-radius: 30px; 
+    overflow: hidden; /* esconde o conteúdo que ultrapassa as bordas */
+    box-shadow: #333;
+    size-adjust: 50%;
+  }
+
+
+  .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    margin-top: 20px; /* Espaço entre o título e as imagens */
+    margin-bottom: 60px; /* Espaço entre as imagens e o rodapé */
+}
+ 
+.video-3x4 {
+    width: 400px; /* Largura das imagens (ajustar conforme necessário) */
+    height: 500px; /* Altura das imagens (ajustar conforme necessário) */
+    object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorção */
+    border-radius: 8px; /* Bordas arredondadas (opcional) */
+    transition: transform 0.3s ease; /* Suaviza o efeito de transformação */
+}
+ 
+/* Efeito de aumento (zoom) nas imagens */
+.video-3x4:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% ao passar o mouse */
+}
+
+.texto2{
+    font-family: Caveat;
+}

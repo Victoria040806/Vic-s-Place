@@ -1,0 +1,31 @@
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    margin-top: 20px; /* Espaço entre o título e as imagens */
+    margin-bottom: 60px; /* Espaço entre as imagens e o rodapé */
+}
+ 
+.video-3x4 {
+    width: 400px; /* Largura das imagens (ajustar conforme necessário) */
+    height: 500px; /* Altura das imagens (ajustar conforme necessário) */
+    object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorção */
+    border-radius: 8px; /* Bordas arredondadas (opcional) */
+    transition: transform 0.3s ease; /* Suaviza o efeito de transformação */
+}
+ 
+/* Efeito de aumento (zoom) nas imagens */
+.video-3x4:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% ao passar o mouse */
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .video-3x4 {
+    width: 30%;
+    margin: 10px;
+  }

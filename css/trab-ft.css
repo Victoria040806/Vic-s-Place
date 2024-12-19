@@ -1,0 +1,51 @@
+.texto-h1 {
+    width: 1200px;
+    margin: auto;
+    color: #BF4342;
+    padding-top: 20px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.50);
+}
+    
+
+.h1 {
+    font-family: Raleway;
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.galeria {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.imagem-3x4 {
+    width: 400px; 
+    height: 500px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    transition: transform 0.3s ease; 
+}
+ 
+/* Efeito de aumento (zoom) nas imagens */
+.imagem-3x4:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% ao passar o mouse */
+}
+
+
+#carouselExampleControls {
+    width: 80%; /* ajuste o tamanho do carrossel */
+    margin: 0 auto; /* centralize o carrossel */
+  }
+  
+  #carouselExampleControls .carousel-inner img {
+    height: 90%; /* ajuste a altura das imagens */
+    object-fit: cover; /* mantenha a proporção das imagens */
+  }
+  
+  #carouselExampleControls .carousel-control-prev, 
+  #carouselExampleControls .carousel-control-next {
+    width: 5%; /* ajuste o tamanho dos botões de navegação */
+  }
